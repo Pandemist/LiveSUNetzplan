@@ -1,0 +1,24 @@
+package svgTester.twitterHandling.SBahn;
+import java_cup.runtime.*;
+
+terminal DATE;				/* 02 */
+terminal TIME;				/* 03 */
+terminal LINE;				/* 04 */
+terminal AND;				/* 05 */
+terminal HASH;				/* 06 */
+terminal ZURZEIT;			/* 07 */
+terminal UHR;				/* 08 */
+terminal NURZWISCHEN;		/* 09 */
+terminal NICHTZWISCHEN;		/* 10 */
+terminal VERKEHRT;			/* 11 */
+terminal WORD;				/* 12 */
+terminal URL;				/* 13 */
+terminal ZERO;				/* 14 */
+terminal AT;				/* 15 */
+
+/*-*
+ * The following two lines define a dummy non-terminal and grammar rule.  CUP
+ * needs at least one rule to run without errors.
+ */
+non terminal dummy;
+dummy ::= ;

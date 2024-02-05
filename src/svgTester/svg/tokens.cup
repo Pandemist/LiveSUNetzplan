@@ -1,0 +1,30 @@
+package svgTester.svg;
+import java_cup.runtime.*;
+
+terminal ZERO;
+terminal INT;
+terminal REAL;
+terminal CHAR;
+terminal IDENT;
+terminal EQ;
+terminal COLON;
+terminal SEMICOLON;
+terminal COLOR;
+terminal HEADERTAG;
+terminal OPENTAG;
+terminal CLOSETAG;
+terminal ENDTAG;
+terminal ANF;
+terminal URL;
+terminal VALUE;
+terminal KOORDS;
+terminal COMMA;
+terminal ROT;
+terminal PRECENT;
+
+/*-*
+ * The following two lines define a dummy non-terminal and grammar rule.  CUP
+ * needs at least one rule to run without errors.
+ */
+non terminal dummy;
+dummy ::= ;
